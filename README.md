@@ -1,10 +1,10 @@
-# latex_plot_styles
+# latex-plot-styles
 This project can be used to makte plots created with matplotlib nicer. It simplifys the styling options by providing a nice default configuration for thesis.
 
 ## setup
-`latex_plot_styles` can pe installed using pip:
+`latex-plot-styles` can pe installed using pip:
 ```
-pip install latex_plot_styles
+pip install latex-plot-styles
 ```
 To use the full functionality you need a running LaTeX installation on your system. On Debian based systems this can be installed using:
 ```
@@ -31,3 +31,4 @@ This is just a small side project to simlify generating plots for my masters the
 
 # changelog
 0.1.0 basic funcitionality for matplotlib styles
+0.1.1 fix typo in package name
