@@ -12,6 +12,7 @@ class Config(BaseModel):
     stylesheet_name:str
     width:float
     height:float
+    color_palette:str
 
 THESIS_CONFIG = Config(
     use_tex=True,
@@ -25,4 +26,5 @@ THESIS_CONFIG = Config(
     stylesheet_name="seaborn-v0_8",
     width=455.24411,
     height=654.41351,
+    color_palette="deep",
 )

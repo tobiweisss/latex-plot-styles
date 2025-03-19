@@ -30,5 +30,6 @@ To configure your own styles you have to create an object from class `Config` an
 This is just a small side project to simlify generating plots for my masters thesis. There are no automated tests, this is not ment for production, but feel free to use and adapt it for your own stuff. 
 
 # changelog
-0.1.0 basic funcitionality for matplotlib styles
-0.1.1 fix typo in package name
+0.1.0 basic funcitionality for matplotlib styles<br>
+0.1.1 fix typo in package name<br>
+0.1.2 change default colors to seaborn dark<br>

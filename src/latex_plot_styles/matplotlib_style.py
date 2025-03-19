@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import seaborn as sns
 from .configs import Config, THESIS_CONFIG
 
 def set_style(
@@ -23,3 +24,5 @@ def set_style(
     }
     plt.style.use(config.stylesheet_name)
     plt.style.use(tex_fonts)
+    colors = sns.color_palette(config.color_palette)
+    sns.set_palette(colors)

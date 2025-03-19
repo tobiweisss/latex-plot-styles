@@ -1,12 +1,13 @@
 [project]
 name = "latex_plot_styles"
-version = "0.1.1"
+version = "0.1.2"
 description = "A simple helper package to adjust matplotlib plots to fit in LaTeX documents"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "matplotlib==3.10.1",
-    "pydantic==2.10.6",
+    "matplotlib>=3.10.1",
+    "pydantic>=2.10.6",
+    "seaborn>=0.13.2",
 ]
 license = {file = "LICENSE"}
 authors = [
